@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Topics = () => {
   return (
@@ -13,7 +14,9 @@ const Topics = () => {
         </li>
       </ul>
       <hr />
+      <Link to="/">
       <button id="topics-back-button">Back</button>
+      </Link>
     </div>
   );
 };
