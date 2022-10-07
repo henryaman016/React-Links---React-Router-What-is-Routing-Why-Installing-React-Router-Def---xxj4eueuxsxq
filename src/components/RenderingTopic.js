@@ -1,14 +1,15 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const RenderingTopic = () => {
   return (
     <div id="rendering-div">
       <h3>Rendering in React</h3>
-      <button id="rendering-back-button">
-        Back
-      </button>
+      <Link to="/">
+        <button id="rendering-back-button">Back</button>
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default RenderingTopic
+export default RenderingTopic;
